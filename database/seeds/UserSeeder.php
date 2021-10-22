@@ -14,30 +14,30 @@ class UserSeeder extends Seeder
         $user_list = [
             [
                 'id' => 1,
-                'lname' => 'Cruz',
-                'fname' => 'Mar',
-                'address' => 'Cebu',
+                'lname' => 'Blane',
+                'fname' => 'Dewey',
+                'address' => 'Davao',
                 'phone' => '09245125',
-                'email' => 'crusz@email.com',
-                'password' => bcrypt('paswrd421')
+                'email' => 'Dewey@email.com',
+                'password' => bcrypt('Dewey')
             ],
             [
                 'id' => 2,
-                'lname' => 'Caarrryy',
-                'fname' => 'Stephen',
-                'address' => 'USA',
+                'lname' => 'Nellie',
+                'fname' => 'Arden',
+                'address' => 'Cadana',
                 'phone' => '02144124',
-                'email' => 'step@email.com',
-                'password' => bcrypt('step_123')
+                'email' => 'Arden@email.com',
+                'password' => bcrypt('Arden41')
             ],
             [
                 'id' => 3,
-                'lname' => 'Lebron',
-                'fname' => 'Jamessss',
+                'lname' => 'Sheridan',
+                'fname' => 'Marly',
                 'address' => 'USA',
                 'phone' => '12515',
-                'email' => 'Lebron@email.com',
-                'password' => bcrypt('Lebron_124')
+                'email' => 'Sheridan@email.com',
+                'password' => bcrypt('Sheridan123')
             ],
         ];
         foreach ($user_list as $user) {
